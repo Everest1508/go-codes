@@ -1,7 +1,3 @@
-Here's a README based on the provided content:
-
----
-
 # 1. Getting Started with Go for Web Development
 
 ## 1.1 Why Go for Web Development?
