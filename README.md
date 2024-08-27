@@ -55,7 +55,7 @@ func main() {
 }
 ```
 
-### 1.3.2 Visibility
+### [1.3.2 Visibility](https://github.com/Everest1508/go-codes/tree/main/go-basics/visibility)
 
 In Go, names that should be visible in other packages must start with a capital letter.
 
@@ -87,7 +87,7 @@ func main() {
 }
 ```
 
-### 1.3.3 Functions
+### [1.3.3 Functions](https://github.com/Everest1508/go-codes/tree/main/go-basics/functions)
 
 Function declarations in Go start with the `func` keyword. Functions can take zero or more arguments, and the return type is specified after the arguments. If the function doesn't return anything, the return type is omitted.
 
@@ -116,7 +116,7 @@ func main() {
 }
 ```
 
-### 1.3.4 Variables
+### [1.3.4 Variables](https://github.com/Everest1508/go-codes/tree/main/go-basics/variables)
 
 The `var` keyword is used to declare variables. Variables can be at the function level or package level.
 
@@ -153,7 +153,3 @@ func myfunc() {
     fmt.Printf("age: %v\ndata type: %T", age, age)
 }
 ```
-
----
-
-This README provides an introduction to Go for web development, highlighting its benefits and basic concepts such as packages, visibility, functions, and variables.
