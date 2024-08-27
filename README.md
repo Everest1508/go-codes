@@ -154,18 +154,17 @@ func myfunc() {
 }
 ```
 
-### [1.3.5 Types](https://github.com/Everest1508/go-codes/tree/main/go-basics/types)
+### [1.3.5 Basic Types](https://github.com/Everest1508/go-codes/tree/main/go-basics/types)
 
-**Basic Type in go**
-    - bool : Boolean ( default “false” )
-    - int : Integer ( default “0” )
-        Go supports Several Integers
-        - Signed - int8, int16, int32, int64
-        - Unsigned - uint8, uint16, uint32, uint64
-        - Byte – byte (alias for uint8)
-        - Rune – rune (alias for int32)
-    - float : Float ( default 0.0 )
-        Go supports two different floats
-        - float32, float64
-    - string: String (default “” )
-    - complex64 and complex128
+- **bool**: Boolean type (default: `false`)
+- **int**: Integer type (default: `0`)
+  - Go supports several integer types:
+    - **Signed Integers**: `int8`, `int16`, `int32`, `int64`
+    - **Unsigned Integers**: `uint8`, `uint16`, `uint32`, `uint64`
+    - **Byte**: `byte` (alias for `uint8`)
+    - **Rune**: `rune` (alias for `int32`)
+- **float**: Floating-point type (default: `0.0`)
+  - Go supports two different float types:
+    - `float32`, `float64`
+- **string**: String type (default: `""`)
+- **complex64** and **complex128**: Complex number types
