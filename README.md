@@ -20,7 +20,7 @@ Go was created primarily for server-side development, and Google is migrating it
 
 ## 1.3. Basics of Golang
 
-### 1.3.1 Packages
+### [1.3.1 Packages](https://github.com/Everest1508/go-codes/tree/main/go-basics/packages)
 
 Every Go program is made up of packages. The `main` function is written in the `main` package. Packages are imported using the `import` keyword.
 
