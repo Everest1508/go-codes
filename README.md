@@ -164,3 +164,26 @@ func myfunc() {
     - `float32`, `float64`
 - **string**: String type (default: `""`)
 - **complex64** and **complex128**: Complex number types
+
+
+### [1.3.5 Constants](https://github.com/Everest1508/go-codes/tree/main/go-basics/constants)
+
+Constants are declare without any type and cannot define without any initialization.
+Constants are immutable and cannot be declare with “:=” this operator.
+
+eg. 
+```go
+package main
+
+import "fmt"
+
+const (
+	Name = “Ritesh”
+)
+
+func main() {
+	
+
+	fmt.Printf("Value : %v\tType : %T\n", Name, Name)
+}
+```
