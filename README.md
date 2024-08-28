@@ -186,7 +186,28 @@ func main() {
 }
 ```
 
-### 1.3.8 Loops  
+### [1.3.6 Type Casting](https://github.com/Everest1508/go-codes/tree/main/go-basics/type-casting)
+Type casting can be done using the syntax `T(v)` where `T` is the new type for the variable and `v` is the variable.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var i int = 42
+	var f float64 = float64(i)
+	var u uint = uint(f)
+	var s string = string(u)
+
+	fmt.Printf("Value : %v\tType : %T\n", i, i)
+	fmt.Printf("Value : %v\tType : %T\n", f, f)
+	fmt.Printf("Value : %v\tType : %T\n", u, u)
+	fmt.Printf("Value : %v\tType : %T\n", s, s)
+}
+```
+
+### 1.3.7 Loops  
 Go has only one looping statement “for,” but it can be used in different ways to make it for, while, infinite loop, etc.  
 - Basic For loop has three statements separated by semicolons.  
    1. Init statement, which executes at the start only once. It can be declaration and initialization, and it’s a short statement.  
@@ -240,7 +261,7 @@ func main() {
 }
 ```
 
-### 1.3.9 If statement  
+### 1.3.8 If statement  
 An If statement helps to check some condition, and if it's true, only the if block is evaluated.  
 
 ```go
@@ -305,7 +326,7 @@ func main() {
 }
 ```
 
-### 1.3.10 Switch statement  
+### 1.3.9 Switch statement  
 Switch case is the same as other languages' switch cases, but the difference is the switch condition can be omitted, and it's the same as `switch true`.  
 
 ```go
@@ -327,7 +348,7 @@ func main() {
 }
 ```
 
-### 1.3.11 Defer statement  
+### 1.3.10 Defer statement  
 The `defer` keyword evaluates certain statements after the surrounding functions return. Arguments passed in `defer` statements are called immediately, but they execute when the function returns.  
 
 ```go
