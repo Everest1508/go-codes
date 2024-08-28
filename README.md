@@ -182,8 +182,6 @@ const (
 )
 
 func main() {
-	
-
 	fmt.Printf("Value : %v\tType : %T\n", Name, Name)
 }
 ```
