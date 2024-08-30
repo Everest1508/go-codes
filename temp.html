@@ -1,0 +1,74 @@
+<table border="1">
+    <caption>Table &quot;public.users&quot;</caption>
+    <tr>
+      <th align="center">Column</th>
+      <th align="center">Type</th>
+      <th align="center">Collation</th>
+      <th align="center">Nullable</th>
+      <th align="center">Default</th>
+    </tr>
+    <tr valign="top">
+      <td align="left">user_id</td>
+      <td align="left">integer</td>
+      <td align="left">&nbsp; </td>
+      <td align="left">not null</td>
+      <td align="left">nextval('users_user_id_seq'::regclass)</td>
+    </tr>
+    <tr valign="top">
+      <td align="left">username</td>
+      <td align="left">character varying(50)</td>
+      <td align="left">&nbsp; </td>
+      <td align="left">not null</td>
+      <td align="left">&nbsp; </td>
+    </tr>
+    <tr valign="top">
+      <td align="left">name</td>
+      <td align="left">character varying(50)</td>
+      <td align="left">&nbsp; </td>
+      <td align="left">not null</td>
+      <td align="left">&nbsp; </td>
+    </tr>
+    <tr valign="top">
+      <td align="left">email</td>
+      <td align="left">character varying(250)</td>
+      <td align="left">&nbsp; </td>
+      <td align="left">not null</td>
+      <td align="left">&nbsp; </td>
+    </tr>
+    <tr valign="top">
+      <td align="left">password</td>
+      <td align="left">text</td>
+      <td align="left">&nbsp; </td>
+      <td align="left">not null</td>
+      <td align="left">&nbsp; </td>
+    </tr>
+    <tr valign="top">
+      <td align="left">created_at</td>
+      <td align="left">timestamp without time zone</td>
+      <td align="left">&nbsp; </td>
+      <td align="left">&nbsp; </td>
+      <td align="left">CURRENT_TIMESTAMP</td>
+    </tr>
+    <tr valign="top">
+      <td align="left">updated_at</td>
+      <td align="left">timestamp without time zone</td>
+      <td align="left">&nbsp; </td>
+      <td align="left">&nbsp; </td>
+      <td align="left">CURRENT_TIMESTAMP</td>
+    </tr>
+    <tr valign="top">
+      <td align="left">deleted_at</td>
+      <td align="left">timestamp without time zone</td>
+      <td align="left">&nbsp; </td>
+      <td align="left">&nbsp; </td>
+      <td align="left">&nbsp; </td>
+    </tr>
+  </table>
+  <p>Indexes:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&quot;users_pkey&quot; PRIMARY KEY, btree (user_id)<br />
+  Referenced by:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;TABLE &quot;orders&quot; CONSTRAINT &quot;orders_user_id_fkey&quot; FOREIGN KEY (user_id) REFERENCES users(user_id)<br />
+  Triggers:<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;trigger_update_timestamp BEFORE UPDATE ON users FOR EACH ROW EXECUTE FUNCTION update_timestap()<br />
+  </p>
+  
