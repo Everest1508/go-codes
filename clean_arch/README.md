@@ -14,4 +14,4 @@ To design good system architecture, need to consider all requirements and constr
 ## 2. Clean Architecture
 
 ### 2.1 What is Clean Architecture?
-Clean Architecture is introduced by Robert C. Martin (Uncle Bob). Goal of Clean Architecture is to create system that easy to undestand, maintain and flexible for future requirements. It orgnizes software componet in layers, which make it decoupled and independent of frameworks, databases and user interfaces.
+Clean Architecture is introduced by Robert C. Martin (Uncle Bob). Goal of Clean Architecture is to create system that easy to undestand, maintain and flexible for future requirements. It orgnizes software componet in layers, which make it decoupled and independent of frameworks, databases and user interfaces. 
