@@ -9,3 +9,8 @@ Architecture is Critical aspect of designing a system. It is responsible for how
 To design good system architecture, need to consider all requirements and constraints of the system. Main goal is to think about long term maintainability, flexibility and scalability. If design is loosely coupled then provides more flexibility.
 
 ![components](images/designarch.jpg)
+
+
+## 2. Clean Architecture
+
+### 2.1 What is Clean Architecture?
